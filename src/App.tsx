@@ -1,13 +1,11 @@
-import React from 'react';
-import './App.css';
-import { ProductsTable } from './components/ProductsTable';
+import React from "react";
+import { ProductsTable } from "./components/ProductsTable";
 
 function App() {
   return (
     <div>
-      <header>
-      </header>
-        <ProductsTable/>
+      <header></header>
+      <ProductsTable />
     </div>
   );
 }
